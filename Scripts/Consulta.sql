@@ -1,0 +1,1 @@
+select Sum(Enero)+Sum(Febrero)+Sum(Marzo) as 'Total de venta' ,fk_id_Vendedor as 'Vendedor' FROM mes GROUP BY  fk_id_vendedor ORDER BY 'Total venta' ASC LIMIT 1;
